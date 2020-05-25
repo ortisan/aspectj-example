@@ -1,4 +1,4 @@
-# Aspectj Example without Spring
+# Aspectj Example
 
 Run with IDE
 ```sh
@@ -8,5 +8,6 @@ Run with IDE
 Run as Package
 ```sh
 mvn clean compile assembly:single
+java -jar /home/marcelo/Documents/Ambiente/Projetos/aspectj-example/target/aspectj-example-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
